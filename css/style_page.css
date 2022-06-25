@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("../webfonts/CaviarDreams/stylesheet.css");
+header,nav,main,footer{
+    width: 1024px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #EFA8E1;
+}
+main section {
+    margin: 20px auto;
+    width: 800px;
+    padding: 30px;
+    background-color: #59FF62;
+}
+main section ul {
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header h1 {
+    color: #6B1162;
+    width: 500px;
+    margin: 75px auto;
+    height: auto;
+    font-family: parisienne;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+footer h5 {
+    width: 300px;
+    height: 20px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+main {
+    background-color: #4EEBE8;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer {
+    height: 100px;
+    background-color: #82437B;
+    padding: 10px auto;
+    color: #FFFFFF;
+}
+nav {
+    height: 70px;
+    background-color: #24BFB8;
+}
+#img_enlace {
+    width: 260px;
+    height: 190px;
+}
+#menu_principal {
+    color: #6B1162;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+main section p  {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: CaviarDreams;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+#menu_principal li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 10px;
+    width: 120px;
+    height: 30px;
+}
+#menu_principal li a {
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #F0D8EF;
+}
+
+#menu_principal li a:link {
+    color: #F0D8EF;
+}
+
+
+#menu_principal li a:visited {
+    color: #E6F30E;
+}
+#menu_principal li a:hover {
+    color: #1CF721;
+    padding: 16px;
+    background-color: #0B8A90;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+}
+
+section p a:link  {
+    text-decoration: none;
+    color: #EB268E;
+    font-weight: bold;
+}
+section p a:visited {
+    color: #DF001B;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+section p a:hover {
+    color: #2F32CC;
+    font-weight: bold;
+}
+#tabla_2 {
+    width: 100%;
+    padding: 0;
+    border-collapse: collapse;
+    border: 3px solid #24BFB8;
+}
+
+
+#tabla_2 tbody tr td , #tabla_2 thead th{
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 3px solid #DC51CE;
+}
+
+
+#tabla_2 tbody tr:nth-child(even)    {
+    background-color: #F3EE7E;
+}
+
+#tabla_2 tbody tr:nth-child(odd) {
+    background-color: #F59373;
+}
+
+#tabla_2 thead tr {
+    background-color: #DC51CE;
+}
+#tabla_3 {
+}
+#tabla_3 tbody tr td {
+    border-bottom: 3px solid #0B8A90;
+}
+#tabla_3 tbody tr:hover  {
+    background-color: #EFA8E1;
+}
+#tabla_4 {
+    width: 80%;
+    text-align: center;
+    border: 2px solid #3448EB;
+    border-collapse: collapse;
+}
+#tabla_4 tbody tr td, #tabla_4 thead th {
+    padding: 6px;
+    border: 2px dashed #F39217;
+}
+#tabla_4 tbody tr {
+    background-color: #6B1162;
+    color: #F0D8EF;
+}
+#tabla_4 thead tr {
+    background-color: #0F8411;
+    color: #FFFFFF;
+}
+#tabla_4 tbody tr:hover {
+    background-color: #FF8D0F;
+}
+#lista1 {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+#lista2 {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+#lista3 {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+#lista3 li ul {
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+#marcador_final_page {
+}
+#parrafo_enlace {
+    text-align: right;
+}
+#marcador_inicio_page {
+}
+#marcador_aline {
+    text-align: right;
+}
+.imagen_tamaño {
+    width: 420px;
+    height: auto;
+}
+.imagen_centrar {
+    width: 420px;
+    margin: 0 auto;
+    height: auto;
+}
+.imagen_derecha {
+    padding-right: 20px;
+    float: right;
+
+}
+.imagen_izquierda {
+    width: 200px;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+.imagen_fondo {
+    background-image: url(../media/imagenes/Akatsuki%20todos.jpg);
+    color: #FD0505;
+    background-size: 100% 100%;
+}
+.imagen_redondeada {
+    width: 20%;
+    border-radius: 100px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.imagen_filtros {
+    width: 250px;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.filter_blur {
+    filter: blur(3px);
+}
+.filter_brillo {
+    filter: brightness(150%);
+}
+.filter_grises {
+    filter: grayscale(100%);
+}
+.filter_contraste {
+    filter: contrast(200%);
+}
+.filter_invert {
+    filter: invert(100%);
+}
+.filter_sepia {
+    filter: sepia(100%);
+}
+.filter_opasidad {
+    filter: opacity(20%);
+}
+.filter_saturacion {
+    filter: saturate(4);
+}
+.filter_sombra {
+    filter: drop-shadow(8px 8px 10px yellow);
+}
+.box_alfa {
+    background-color: hsla(306,67%,59%,0.50);
+    color: rgba(107,17,98,1.00);
+}
+.video_sice {
+    width: 30%;
+    height: auto;
+}
+#form1 #Nombre {
+}
+#form1 input[type=text]  {
+    background-color: hsla(312,69%,80%,1.00);
+    color: hsla(306,73%,24%,1.00);
+    padding: 10px;
+    margin: 5px auto;
+    width: 90%;
+}
+
+#form1 label {
+    padding: 5px;
+    color: hsla(306,73%,24%,1.00);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#form1 {
+    margin: 10px auto;
+    width: 60%;
+    background-color: hsla(177,68%,45%,1.00);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+#form1 #submit {
+    padding: 10px;
+    margin: 20px auto;
+    width: 50%;
+    background-color: hsla(60,97%,58%,1.00);
+    color: hsla(306,73%,24%,1.00);
+    font-size: 16px;
+    font-weight: bold;
+}
+#form2 {
+    background-color: hsla(183,86%,30%,1.00);
+    color: hsla(303,44%,89%,1.00);
+    margin: 10px auto;
+    padding: 30px;
+    width: 80%;
+    height: auto;
+}
+#form2 input[type=text] , #form2 input[type=email]{
+    padding: 10px;
+    width: 100%;
+    display: block;
+}
+#form2 input[type=text]:focus , #form2 input[type=email]:focus{
+    background-color: hsla(312,69%,80%,1.00);
+    color: hsla(306,73%,24%,1.00);
+}
+#form2 select {
+    padding: 10px;
+    width: 100%;
+    background-color: hsla(312,69%,80%,1.00);
+    color: hsla(306,73%,24%,1.00);
+    font-weight: bold;
+}
+#form2 #textarea {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    resize: none;
+    color: hsla(306,83%,38%,1.00);
+    background-color: hsla(52,95%,77%,1.00);
+    font-weight: bold;
+}
+#form2 input[type=submit] {
+    width: 30%;
+    height: 30px;
+    margin: 20px auto;
+    display: block;
+    background-color: hsla(24,98%,58%,1.00);
+    color: hsla(359,100%,25%,1.00);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+#form2 label {
+    color: hsla(303,44%,89%,1.00);
+    font-weight: bold;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: block;
+}
+#form2 table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#form3 {
+    width: 80%;
+    margin: 10px auto;
+    padding: 30px;
+    height: auto;
+    background-color: hsla(317,100%,44%,1.00);
+    color: hsla(58,100%,50%,1.00);
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px dashed hsla(306,73%,24%,1.00);
+}
+#form3 input[type=text] , #form3 input[type=email], #form3 input[type=fileField]{
+    width: 100%;
+    padding: 8px;
+    display: block;
+    background-color: hsla(202,66%,67%,1.00);
+}
+#form3 input[type=date], #form3 input[type=password], #form3 input[type=tel] , #form3 input[type=range]{
+    width: 50%;
+    padding: 8px;
+    display: block;
+    background-color: hsla(312,69%,80%,1.00);
+}
+#form3 label {
+    padding: 5px;
+    margin: 8px auto;
+    display: block;
+}
+#form3 input[type=submit] {
+    width: 50%;
+    height: 30px;
+    margin: 20px auto;
+    display: block;
+    background-color: hsla(110,100%,41%,1.00);
+    color: hsla(306,100%,14%,1.00);
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 3px solid hsla(114,100%,10%,1.00);
+}
+
+
+
+.fuente_text {
+    font-family: CaviarDreams;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    text-indent: 0px;
+}
+main section h2 {
+    font-family: lobster;
+    color: hsla(306,100%,30%,1.00);
+	
+}
+.size_img_animate {
+    width: 40%;
+}
